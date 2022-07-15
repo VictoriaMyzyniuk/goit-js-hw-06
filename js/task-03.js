@@ -23,5 +23,3 @@ const addImagesList = images
   .join('');
 
 imagesList.insertAdjacentHTML('beforeend', addImagesList);
-
-console.log(addImagesList);

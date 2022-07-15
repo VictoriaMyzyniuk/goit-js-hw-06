@@ -8,5 +8,3 @@ refs.input.addEventListener('change', onInputChange);
 function onInputChange(event) {
   refs.text.style.fontSize = `${event.currentTarget.value}px`;
 }
-
-console.log(refs.input.prototype);

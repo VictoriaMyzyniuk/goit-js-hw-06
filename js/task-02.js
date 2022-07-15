@@ -9,5 +9,3 @@ const addElementsList = ingredients.map(element => {
 
 const ingredientsList = document.querySelector('#ingredients');
 ingredientsList.append(...addElementsList);
-
-console.log(addElementsList);
